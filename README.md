@@ -10,13 +10,19 @@ Hovedformålet med spillet er, at man skal kunne gætte sig frem til ordet inden
 #### Prototype
 ![Screenshot](prototype.png)
 
-#### Vejledning.
+#### Vejledning
 - Start programmet.
 - Klik på 'spin' for at starte dit første skridt.
 - Man starter med 5 liv.
 - Gæt dig frem til bogstaverne.
 - Har du en ide på hvad det kan være? - Så skriv ved at trykke på 'Guess Word'.
 - Efter 5. liv kommer der et resultat frem.
+
+#### ORD
+WordGenerator.kt
+```
+private val availableWords: List<String> = listOf("Android Studio", "IntelliJ Ultimate", "Machine Code", "Compiler Construction", "Innovation Pilot")
+```
 
 
 
