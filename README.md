@@ -1,4 +1,4 @@
-# android_exercises
+# android_individuel_aflevering
 
 ### Lykkehjulet - s185736
 Applikationen går ud på, at man skal klikke på en knap, som skal foretille sig, at være et lykkehjul. Som så giver x antal points.
