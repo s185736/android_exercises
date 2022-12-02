@@ -3,11 +3,11 @@ package com.project.wheeloffortune.page.word
 
 import kotlin.random.Random
 
-class WordGenerator() {
+class WordGenerator {
 
-    private val availableWords: List<String> = listOf("Android Studio", "IntelliJ Ultimate", "Machine Code")
+    private val availableWords: List<String> = listOf("asd");//("Android Studio", "IntelliJ Ultimate", "Machine Code", "Compiler Construction", "Innovation Pilot")
 
-    val randWordGenrating: String
+    val randWordGenerating: String
         get() {
             val selectedWord: List<String> = availableWords
             println("Word is generated.")

@@ -38,7 +38,7 @@ class Info {
     /*Keyboard for the game.*/
     var keyBoard: String by mutableStateOf(value = "letter")
     /*Here's the random generated word.*/
-    var generatedWord = wof.randWordGenrating
+    var generatedWord = wof.randWordGenerating
     /*Choose a word..*/
     var chooseAWord: String by mutableStateOf(value = "")
     /*The hidden letters.*/
