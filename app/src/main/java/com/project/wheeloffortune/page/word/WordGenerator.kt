@@ -5,7 +5,7 @@ import kotlin.random.Random
 
 class WordGenerator {
 
-    private val availableWords: List<String> = listOf("asd");//("Android Studio", "IntelliJ Ultimate", "Machine Code", "Compiler Construction", "Innovation Pilot")
+    private val availableWords: List<String> = listOf("Android Studio", "IntelliJ Ultimate", "Machine Code", "Compiler Construction", "Innovation Pilot")
 
     val randWordGenerating: String
         get() {
