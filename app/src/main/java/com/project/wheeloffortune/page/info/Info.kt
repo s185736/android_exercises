@@ -8,7 +8,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import com.project.wheeloffortune.page.word.WordGenerator
 
-/*Here's our info.kt with out variables, that is going to be used.*/
+/*Here's our info.kt with our variables, that is going to be used.*/
 
 /*MutableStateOf will be used, which will convert the value
 to the state that Jetpack Compose will handle. That's because Jetpack Compose

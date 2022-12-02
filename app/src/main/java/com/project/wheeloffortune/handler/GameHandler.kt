@@ -6,6 +6,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import com.project.wheeloffortune.page.info.Info
 
+/*Gamhandler.kt - Includes the handlings in the game.*/
 class GameHandler: ViewModel() {
     var info: Info by mutableStateOf(value = Info())
     fun refresh(){
@@ -77,6 +78,14 @@ class GameHandler: ViewModel() {
         "You've to 'Spin' first!".also { info.popupMessage = it }
     }
 
+    fun pressButtonDesign() = if (!info.gameStarted) {
+        info.gameStarted = true
+        info.popupMessage = "Pick a consontant."
+
+    }else{
+        "Choose one of the consonants!".also { info.popupMessage = it }
+    }
+
     private fun setLetterPressed(letter: String){
         when (letter) {
             "A" -> true.also { info.buttonPressed[0] = it }
@@ -144,13 +153,5 @@ class GameHandler: ViewModel() {
             else ->
                 return false
         }
-    }
-
-    fun pressButtonDesign() = if (!info.gameStarted) {
-        info.gameStarted = true
-        info.popupMessage = "Pick a consontant."
-
-    }else{
-        "Choose one of the consonants!".also { info.popupMessage = it }
     }
 }

@@ -15,6 +15,7 @@ import com.project.wheeloffortune.handler.GameHandler
 var letters: Letters by mutableStateOf(Letters())
 var info: Info by mutableStateOf(value = Info())
 
+/*WheelOfFortune.kt - Includes the layout and design..*/
 @Composable
 fun WheelOfFortune(handler: GameHandler) {
     Layout {
