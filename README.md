@@ -1,5 +1,7 @@
 # android_individuel_aflevering
 
+### Student: Azmi Uslu (s185736)
+
 ### Lykkehjulet - s185736
 Applikationen går ud på, at man skal klikke på en knap, som skal foretille sig, at være et lykkehjul. Som så giver x antal points.
 Hovedformålet med spillet er, at man skal kunne gætte sig frem til ordet inden man mister alle sin 5 liv eller før det.
