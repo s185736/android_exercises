@@ -1,6 +1,7 @@
 # android_individuel_aflevering
 
 ### Student: Azmi Uslu (s185736)
+### Repo: https://github.com/s185736/android_exercises
 
 ### Lykkehjulet - s185736
 Applikationen går ud på, at man skal klikke på en knap, som skal foretille sig, at være et lykkehjul. Som så giver x antal points.
